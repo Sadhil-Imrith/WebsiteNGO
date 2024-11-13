@@ -1,0 +1,370 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SA Outreach and Emergency Services</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/SA Outreach and Emergency Services.styles.css" asp-append-version="true" />
+    <style>
+
+
+        /* Set the body background to black */
+        body {
+            background-color: #000000; /* Black background */
+            color: #000000; /* Black text color */
+        }
+
+        /* Position the navbar on top of the hero image */
+        .navbar-light {
+            background-color: transparent !important; /* Transparent navbar background */
+            position: absolute; /* Positioned absolutely to the viewport */
+            top: 0; /* Align to the top of the viewport */
+            left: 0; /* Align to the left */
+            width: 100%; /* Ensure full-width coverage */
+            z-index: 2; /* Ensure it stays above the hero image */
+            border-bottom: none !important; /* Remove any bottom border */
+            box-shadow: none !important; /* Remove any shadow */
+        }
+
+            /* Ensure the navbar content (links and brand) is visible */
+            .navbar-light .nav-link,
+            .navbar-light .navbar-brand {
+                color: white !important; /* White text for visibility */
+            }
+
+                .navbar-light .nav-link:hover {
+                    color: #DE3831 !important; /* Highlight color for hover */
+                }
+
+            /* Ensure the hamburger menu (for small screens) is styled properly */
+            .navbar-light .navbar-toggler {
+                background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+                border: none; /* Remove border */
+            }
+
+
+        /* Button styling */
+        .btn-donate {
+            background-color: #DE3831 !important; /* Red */
+            color: #ffffff !important; /* White */
+        }
+
+            .btn-donate:hover {
+                background-color: #FFB81C !important; /* Yellow */
+                color: #000000 !important; /* Black */
+            }
+
+/*         /* Footer styling */
+        .footer {
+            background-color: #000000; /* Black */
+            color: #ffffff; /* White */
+        }
+
+            .footer a {
+                color: #FFB81C; /* Yellow */
+            }
+
+                .footer a:hover {
+                    color: #ffffff; /* White */
+                }
+ */
+        /* Hero Section Styles */
+        .hero-section {
+            background-size: cover; /* Cover the entire div */
+            background-position: center center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            height: 100vh; /* Set the height of the section to 100% of the viewport height */
+            z-index: 0; /* Behind the navbar */
+        }
+
+        .hero-content {
+            color: white; /* Ensure text is readable on the background */
+            text-align: center;
+            padding-top: 0%; /* Push the content down a bit */
+            z-index: 1;
+        }
+
+
+
+        /* Modal Styling */
+        .modal-content {
+            background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
+            color: #ffffff; /* White text color */
+            border-radius: 15px; /* Rounded corners */
+            border: 1px solid #ffffff; /* Light white border */
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); /* Add shadow for 3D effect */
+        }
+
+            .modal-content .form-control {
+                background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent input fields */
+                color: #000000; /* Black text color */
+                border-radius: 10px; /* Rounded input fields */
+                border: 1px solid #ffffff; /* Light white border */
+            }
+
+            .modal-content .form-label {
+                color: #ffffff; /* White text color for labels */
+            }
+
+            .modal-content .btn-primary {
+                background-color: #ffcc00; /* Bright contrasting button color */
+                border-color: #ffcc00; /* Matching border color */
+                color: #000000; /* Black text color */
+                border-radius: 10px; /* Rounded button */
+            }
+
+                .modal-content .btn-primary:hover {
+                    background-color: #ffc107; /* Darker yellow on hover */
+                    border-color: #ffc107; /* Matching hover border */
+                }
+
+            .modal-content .btn-success {
+                background-color: #28a745; /* Green color for register button */
+                border-color: #28a745;
+                color: #ffffff;
+                border-radius: 10px;
+            }
+
+                .modal-content .btn-success:hover {
+                    background-color: #218838; /* Darker green on hover */
+                    border-color: #1e7e34;
+                }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="@Url.Content("~/Images/saout_logo.png")" alt="SA Outreach Logo" width="75" height="70" />
+                </a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarColor03">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Home" asp-action="AboutUs">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="ContactUs">Contact Us</a>
+                        </li>                      
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Wings</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="FlyingWings">The Flying Wings Team</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" asp-area="" asp-controller="MediWing" asp-action="Index">The Mediwings Team</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" asp-area="" asp-controller="LegalWing" asp-action="Index">The Legal Wings Team</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" asp-area="" asp-controller="HelpingHand" asp-action="Index">The Helping Hands Team</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" asp-area="" asp-controller="YouthWing" asp-action="Index">The Youth Wings Team</a>
+                            </div>
+                        </li>  
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="ProjectsAndPrograms">ProjectsAndPrograms</a>
+                        </li>
+                        @*New Paypal menu*@
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Paypal" asp-action="Index">Paypal</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginRegisterModal">Login</a>
+                        </li>
+                    </ul>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Admin" asp-action="Dashboard">Admin Dashboard</a>
+                        </li>
+                    }
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Render Hero Section Only on the Home Page -->
+    @if (ViewContext.RouteData.Values["controller"]?.ToString() == "Home" &&
+    ViewContext.RouteData.Values["action"]?.ToString() == "Index")
+    {
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1>Welcome to SA Outreach</h1>
+                <p>Helping the community together.</p>
+                <a href="~/Home/AboutUs" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    }
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted py-3">
+        <div class="container">
+            SA Outreach and Emergency Services | Developed by Codeverse Solutions
+            <a href="#" data-bs-toggle="modal" data-bs-target="#popiaModal">POPIA Act</a>
+        </div>
+    </footer>
+
+    <!-- Modal for Login and Registration -->
+    <div class="modal fade" id="loginRegisterModal" tabindex="-1" aria-labelledby="loginRegisterModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginRegisterModalLabel">Login / Register</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Tabs for Login and Registration -->
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="login-tab" data-bs-toggle="tab" data-bs-target="#login" type="button" role="tab" aria-controls="login" aria-selected="true">Login</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="register-tab" data-bs-toggle="tab" data-bs-target="#register" type="button" role="tab" aria-controls="register" aria-selected="false">Register</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <!-- Login Form -->
+                        <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
+                            <form method="post" action="/Account/Login">
+                                <div class="mb-3 mt-3">
+                                    <label for="loginEmail" class="form-label">Email:</label>
+                                    <input type="email" class="form-control" id="loginEmail" name="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="loginPassword" class="form-label">Password:</label>
+                                    <input type="password" class="form-control" id="loginPassword" name="password" required>
+                                    <small>
+                                        <a id="forgot-password" href="/Account/ForgotPassword">Forgot your password?</a>
+                                    </small>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Login</button>
+                            </form>
+                        </div>
+
+                        <!-- Registration Form -->
+                        <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
+                            <form method="post" action="/Account/Register">
+                                <div class="mb-3 mt-3">
+                                    <label for="registerEmail" class="form-label">Email:</label>
+                                    <input type="email" class="form-control" id="registerEmail" name="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="registerPassword" class="form-label">Password:</label>
+                                    <input type="password" class="form-control" id="registerPassword" name="password" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="confirmPassword" class="form-label">Confirm Password:</label>
+                                    <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" required>
+                                </div>
+                                <button type="submit" class="btn btn-success w-100">Register</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+@*     <div class="modal fade" id="popiaModal" tabindex="-1" aria-labelledby="popiaModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="popiaModalLabel">POPIA Act Notice</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        In compliance with the Protection of Personal Information Act (POPIA), we are committed to safeguarding your personal data.
+                        By using our platform, you agree to our data collection and usage practices as described in our Privacy Policy.
+                    </p>
+                    <p>
+                        Should you have any concerns or queries regarding your data privacy, please contact us.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> *@
+
+  @*   <div class="modal fade" id="popiaModal" tabindex="-1" aria-labelledby="popiaModalLabel" aria-hidden="true">
+        <article class="modal-container">
+            <header class="modal-container-header">
+                <span class="modal-container-title">
+                    <svg aria-hidden="true" height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M14 9V4H5v16h6.056c.328.417.724.785 1.18 1.085l1.39.915H3.993A.993.993 0 0 1 3 21.008V2.992C3 2.455 3.449 2 4.002 2h10.995L21 8v1h-7zm-2 2h9v5.949c0 .99-.501 1.916-1.336 2.465L16.5 21.498l-3.164-2.084A2.953 2.953 0 0 1 12 16.95V11zm2 5.949c0 .316.162.614.436.795l2.064 1.36 2.064-1.36a.954.954 0 0 0 .436-.795V13h-5v3.949z" fill="currentColor"></path>
+                    </svg>
+                    Terms and Services
+                </span>
+                <button class="icon-button">
+                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z" fill="currentColor"></path>
+                    </svg>
+                </button>
+            </header>
+            <section class="modal-container-body rtf">
+                <span>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</span>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Unum nescio, quo modo possit, si luxuriosus sit, finitas cupiditates habere. Hoc est non modo cor non habere, sed ne palatum quidem. Sic, et quidem diligentius saepiusque ista loquemur inter nos agemusque communiter. Paulum, cum regem Persem captum adduceret, eodem flumine invectio? Quid igitur dubitamus in tota eius natura quaerere quid sit effectum? Duo Reges: constructio interrete. </p>
+
+                <span>Ut proverbia non nulla veriora sint quam vestra dogmata.</span>
+
+                <p>Quasi vero, inquit, perpetua oratio rhetorum solum, non etiam philosophorum sit. Tria genera cupiditatum, naturales et necessariae, naturales et non necessariae, nec naturales nec necessariae. Sin aliud quid voles, postea. Consequatur summas voluptates non modo parvo, sed per me nihilo, si potest; </p>
+
+                <p>Cur igitur easdem res, inquam, Peripateticis dicentibus verbum nullum est, quod non intellegatur? Primum in nostrane potestate est, quid meminerimus? Eam tum adesse, cum dolor omnis absit; Quodsi ipsam honestatem undique pertectam atque absolutam. Aliam vero vim voluptatis esse, aliam nihil dolendi, nisi valde pertinax fueris, concedas necesse est. Nec enim, cum tua causa cui commodes, beneficium illud habendum est, sed faeneratio, nec gratia deberi videtur ei, qui sua causa commodaverit. Universa enim illorum ratione cum tota vestra confligendum puto. Sed residamus, inquit, si placet. Sed vobis voluptatum perceptarum recordatio vitam beatam facit, et quidem corpore perceptarum. Itaque primos congressus copulationesque et consuetudinum instituendarum voluntates fieri propter voluptatem; Ita enim se Athenis collocavit, ut sit paene unus ex Atticis, ut id etiam cognomen videatur habiturus. Atque hoc loco similitudines eas, quibus illi uti solent, dissimillimas proferebas. </p>
+
+                <span>An hoc usque quaque, aliter in vita?</span>
+                <ol>
+                    <li>Etenim nec iustitia nec amicitia esse omnino poterunt, nisi ipsae per se expetuntur.</li>
+                    <li>Pisone in eo gymnasio, quod Ptolomaeum vocatur, unaque nobiscum Q.</li>
+                    <li>Certe nihil nisi quod possit ipsum propter se iure laudari.</li>
+                    <li>Itaque e contrario moderati aequabilesque habitus, affectiones ususque corporis apti esse ad naturam videntur.</li>
+                </ol>
+
+                <p>Utilitatis causa amicitia est quaesita. Qui autem de summo bono dissentit de tota philosophiae ratione dissentit. Quamquam non negatis nos intellegere quid sit voluptas, sed quid ille dicat. Sed emolumenta communia esse dicuntur, recte autem facta et peccata non habentur communia. Hoc positum in Phaedro a Platone probavit Epicurus sensitque in omni disputatione id fieri oportere. Potius inflammat, ut coercendi magis quam dedocendi esse videantur. Roges enim Aristonem, bonane ei videantur haec: vacuitas doloris, divitiae, valitudo; Totum autem id externum est, et quod externum, id in casu est. Non autem hoc: igitur ne illud quidem. Simul atque natum animal est, gaudet voluptate et eam appetit ut bonum, aspernatur dolorem ut malum. Quamquam tu hanc copiosiorem etiam soles dicere. Quid enim necesse est, tamquam meretricem in matronarum coetum, sic voluptatem in virtutum concilium adducere? Hoc positum in Phaedro a Platone probavit Epicurus sensitque in omni disputatione id fieri oportere. Videsne quam sit magna dissensio? </p>
+
+                <span>Claudii libidini, qui tum erat summo ne imperio, dederetur.</span>
+
+                <p>Eorum enim est haec querela, qui sibi cari sunt seseque diligunt. Cum audissem Antiochum, Brute, ut solebam, cum M. An obliviscimur, quantopere in audiendo in legendoque moveamur, cum pie, cum amice, cum magno animo aliquid factum cognoscimus? Qui igitur convenit ab alia voluptate dicere naturam proficisci, in alia summum bonum ponere? Magni enim aestimabat pecuniam non modo non contra leges, sed etiam legibus partam. Haec mirabilia videri intellego, sed cum certe superiora firma ac vera sint, his autem ea consentanea et consequentia, ne de horum quidem est veritate dubitandum. At, illa, ut vobis placet, partem quandam tuetur, reliquam deserit. Sed utrum hortandus es nobis, Luci, inquit, an etiam tua sponte propensus es? Sed est forma eius disciplinae, sicut fere ceterarum, triplex: una pars est naturae, disserendi altera, vivendi tertia. Nemo enim est, qui aliter dixerit quin omnium naturarum simile esset id, ad quod omnia referrentur, quod est ultimum rerum appetendarum. Quid est, quod ab ea absolvi et perfici debeat? Quod cum accidisset ut alter alterum necopinato videremus, surrexit statim. Tantum dico, magis fuisse vestrum agere Epicuri diem natalem, quam illius testamento cavere ut ageretur. Quod iam a me expectare noli. Quod totum contra est. Semper enim ita adsumit aliquid, ut ea, quae prima dederit, non deserat. </p>
+
+                <span>Sed nimis multa.</span>
+
+                <p>Nec vero alia sunt quaerenda contra Carneadeam illam sententiam. Negat enim summo bono afferre incrementum diem. Causa autem fuit huc veniendi ut quosdam hinc libros promerem. Deinde prima illa, quae in congressu solemus: Quid tu, inquit, huc? Minime vero probatur huic disciplinae, de qua loquor, aut iustitiam aut amicitiam propter utilitates adscisci aut probari. Nulla profecto est, quin suam vim retineat a primo ad extremum. Sed ad illum redeo. Quem quidem vos, cum improbis poenam proponitis, inpetibilem facitis, cum sapientem semper boni plus habere vultis, tolerabilem. Huic ego, si negaret quicquam interesse ad beate vivendum quali uteretur victu, concederem, laudarem etiam; Non igitur de improbo, sed de callido improbo quaerimus, qualis Q. His singulis copiose responderi solet, sed quae perspicua sunt longa esse non debent. Quae cum ita sint, effectum est nihil esse malum, quod turpe non sit. </p>
+
+            </section>
+            <footer class="modal-container-footer">
+                <button class="button is-ghost">Decline</button>
+                <button class="button is-primary">Accept</button>
+            </footer>
+        </article>
+    </div> *@
+
+
+</body>
+</html>

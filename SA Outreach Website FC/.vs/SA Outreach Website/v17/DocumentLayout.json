@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sadhi\\OneDrive\\Desktop\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Donate\\SA Outreach Website FC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B5A7EA6-29AD-4AAA-9DE9-947388E3E814}|SA Outreach Website.csproj|c:\\users\\sadhi\\onedrive\\desktop\\sa outreach website fc - copy\\sa outreach website fc - copy\\sa outreach website fc - donate\\sa outreach website fc\\models\\volunteer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B5A7EA6-29AD-4AAA-9DE9-947388E3E814}|SA Outreach Website.csproj|solutionrelative:models\\volunteer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B5A7EA6-29AD-4AAA-9DE9-947388E3E814}|SA Outreach Website.csproj|c:\\users\\sadhi\\onedrive\\desktop\\sa outreach website fc - copy\\sa outreach website fc - copy\\sa outreach website fc - donate\\sa outreach website fc\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B5A7EA6-29AD-4AAA-9DE9-947388E3E814}|SA Outreach Website.csproj|solutionrelative:models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B5A7EA6-29AD-4AAA-9DE9-947388E3E814}|SA Outreach Website.csproj|c:\\users\\sadhi\\onedrive\\desktop\\sa outreach website fc - copy\\sa outreach website fc - copy\\sa outreach website fc - donate\\sa outreach website fc\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B5A7EA6-29AD-4AAA-9DE9-947388E3E814}|SA Outreach Website.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B5A7EA6-29AD-4AAA-9DE9-947388E3E814}|SA Outreach Website.csproj|c:\\users\\sadhi\\onedrive\\desktop\\sa outreach website fc - copy\\sa outreach website fc - copy\\sa outreach website fc - donate\\sa outreach website fc\\models\\donors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B5A7EA6-29AD-4AAA-9DE9-947388E3E814}|SA Outreach Website.csproj|solutionrelative:models\\donors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B5A7EA6-29AD-4AAA-9DE9-947388E3E814}|SA Outreach Website.csproj|c:\\users\\sadhi\\onedrive\\desktop\\sa outreach website fc - copy\\sa outreach website fc - copy\\sa outreach website fc - donate\\sa outreach website fc\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B5A7EA6-29AD-4AAA-9DE9-947388E3E814}|SA Outreach Website.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B5A7EA6-29AD-4AAA-9DE9-947388E3E814}|SA Outreach Website.csproj|c:\\users\\sadhi\\onedrive\\desktop\\sa outreach website fc - copy\\sa outreach website fc - copy\\sa outreach website fc - donate\\sa outreach website fc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4B5A7EA6-29AD-4AAA-9DE9-947388E3E814}|SA Outreach Website.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B5A7EA6-29AD-4AAA-9DE9-947388E3E814}|SA Outreach Website.csproj|c:\\users\\sadhi\\onedrive\\desktop\\sa outreach website fc - copy\\sa outreach website fc - copy\\sa outreach website fc - donate\\sa outreach website fc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B5A7EA6-29AD-4AAA-9DE9-947388E3E814}|SA Outreach Website.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Volunteer.cs",
+              "DocumentMoniker": "C:\\Users\\sadhi\\OneDrive\\Desktop\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Donate\\SA Outreach Website FC\\Models\\Volunteer.cs",
+              "RelativeDocumentMoniker": "Models\\Volunteer.cs",
+              "ToolTip": "C:\\Users\\sadhi\\OneDrive\\Desktop\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Donate\\SA Outreach Website FC\\Models\\Volunteer.cs",
+              "RelativeToolTip": "Models\\Volunteer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T14:07:02.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\sadhi\\OneDrive\\Desktop\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Donate\\SA Outreach Website FC\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "Models\\Event.cs",
+              "ToolTip": "C:\\Users\\sadhi\\OneDrive\\Desktop\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Donate\\SA Outreach Website FC\\Models\\Event.cs",
+              "RelativeToolTip": "Models\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T14:07:01.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\sadhi\\OneDrive\\Desktop\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Donate\\SA Outreach Website FC\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\sadhi\\OneDrive\\Desktop\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Donate\\SA Outreach Website FC\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T14:07:00.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Donors.cs",
+              "DocumentMoniker": "C:\\Users\\sadhi\\OneDrive\\Desktop\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Donate\\SA Outreach Website FC\\Models\\Donors.cs",
+              "RelativeDocumentMoniker": "Models\\Donors.cs",
+              "ToolTip": "C:\\Users\\sadhi\\OneDrive\\Desktop\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Donate\\SA Outreach Website FC\\Models\\Donors.cs",
+              "RelativeToolTip": "Models\\Donors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T14:06:59.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sadhi\\OneDrive\\Desktop\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Donate\\SA Outreach Website FC\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\sadhi\\OneDrive\\Desktop\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Donate\\SA Outreach Website FC\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T14:06:50.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\sadhi\\OneDrive\\Desktop\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Donate\\SA Outreach Website FC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\sadhi\\OneDrive\\Desktop\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Donate\\SA Outreach Website FC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T19:08:31.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\sadhi\\OneDrive\\Desktop\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Donate\\SA Outreach Website FC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\sadhi\\OneDrive\\Desktop\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Copy\\SA Outreach Website FC - Donate\\SA Outreach Website FC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAABsGAAAAAAAAAAAAAEsGAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-11T20:14:10.967Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

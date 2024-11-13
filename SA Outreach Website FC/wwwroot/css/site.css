@@ -1,0 +1,1611 @@
+/* Make the navbar transparent */
+/*.navbar {
+    background-color: transparent !important;*/ /* Transparent background */
+    /*border: none !important;*/ /* Remove any borders */
+    /*box-shadow: none !important;*/ /* Remove any shadows */
+/*}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;*/ /* Ensure text is visible on transparent background */
+/*}
+
+.navbar-light .navbar-brand {
+    color: white !important;
+}*/
+
+
+
+
+body {
+    margin-top: 70px; /* Adjust based on your navbar height */
+}
+
+.content {
+    padding-bottom: 150px; /* Adjust based on footer height */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030; /* Ensure it stays on top */
+}
+
+/*body {
+    margin-bottom: 100px;*/ /* Adjust based on footer height */
+/*}*/
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+
+
+#contact, #donate, #about {
+    background-color: Background;
+    color: #333;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #AAB1C0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+    form input, form textarea {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: brown;
+    }
+
+body {
+    background-color: #36383C
+}
+
+button {
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+#contact-details {
+    margin-top: 20px;
+}
+
+#donate #wings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.wing {
+    flex: 1 1 calc(33% - 20px);
+    background-color: lavender;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#auth {
+    display: flex;
+    justify-content: space-between;
+}
+
+    #auth button {
+        width: 48%;
+    }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#about-us .about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+    #about-us .about-content p {
+        width: 60%;
+    }
+
+#about-us .about-image, .about-gallery .gallery-item, .gallery-content .gallery-item {
+    width: 30%;
+    height: 200px;
+    background-color: #444;
+    margin: 10px;
+}
+
+#about-us .about-gallery, .gallery-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#projects-programs .program-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+#projects-programs .program-item {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#about-us {
+    color: #ffffff;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.custom-navbar {
+    background-color: #000000;
+}
+
+    .custom-navbar .nav-link {
+        color: #000000;
+    }
+
+        .custom-navbar .nav-link:hover {
+            color: #000000;
+        }
+
+
+.carousel-item {
+    height: 100vh;
+    background-color: #000;
+}
+
+    .carousel-item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 100vh;
+        object-fit: cover;
+    }
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+}
+
+    .carousel-caption h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    .carousel-caption .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        padding: 10px 20px;
+        font-size: 1.2rem;
+    }
+
+.center-text {
+    text-align: center;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.about-us-section {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+    .about-us-section h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+
+    .about-us-section .about-text {
+        font-size: 1.2em;
+        line-height: 1.6em;
+        margin-bottom: 40px;
+        text-align: left;
+        max-width: 800px;
+        margin: 0 auto 40px auto;
+    }
+
+    .about-us-section .image-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+        .about-us-section .image-grid figure {
+            margin: 0;
+            width: calc(33.333% - 20px);
+        }
+
+        .about-us-section .image-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+            .about-us-section .image-grid img:hover {
+                transform: scale(1.05);
+            }
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+    .image-grid figure {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .image-grid img {
+        width: 100%;
+        height: auto;
+        display: block;
+        transition: transform 0.2s ease-in-out;
+    }
+
+        .image-grid img:hover {
+            transform: scale(1.05);
+        }
+
+
+.custom-donate-button {
+    background-color: azure; /* Use any color code you want */
+    color: white;
+    border: 2px solid orange;
+    padding: 10px 20px;
+    border-radius: 10px; /* Adjust the border radius as needed */
+    text-align: center;
+    display: inline-block;
+}
+
+    .custom-donate-button:hover {
+        background-color: #3a8e80; /* Darker shade for hover effect */
+        color: white;
+    }
+
+/* LEARN MORE BUTTON STYLE CODE*/
+/* Add this to site.css */
+.btn-primary {
+    background-color: #FF5733; /* Custom background color */
+    color: #FFFFFF; /* Custom text color */
+    border-color: #FF5733; /* Custom border color */
+}
+
+    .btn-primary:hover {
+        background-color: #C13E28; /* Darker shade on hover */
+        border-color: #C13E28;
+    }
+
+
+.hero-content h1 {
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* ANIMATE BUTTON ON HOME PAGE*/
+/*.animated-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 16px 36px;
+    border: 4px solid;
+    border-color: transparent;
+    font-size: 16px;
+    background-color: inherit;
+    border-radius: 100px;
+    font-weight: 600;
+    color: greenyellow;
+    box-shadow: 0 0 0 2px greenyellow;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+    .animated-button svg {
+        position: absolute;
+        width: 24px;
+        fill: orange;
+        z-index: 9;
+        transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .animated-button .arr-1 {
+        right: 16px;
+    }
+
+    .animated-button .arr-2 {
+        left: -25%;
+    }
+
+    .animated-button .circle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 20px;
+        height: 20px;
+        background-color: orange;
+        border-radius: 50%;
+        opacity: 0;
+        transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .animated-button .text {
+        position: relative;
+        z-index: 1;
+        transform: translateX(-12px);
+        transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .animated-button:hover {
+        box-shadow: 0 0 0 12px transparent;
+        color: #212121;
+        border-radius: 12px;
+    }
+
+        .animated-button:hover .arr-1 {
+            right: -25%;
+        }
+
+        .animated-button:hover .arr-2 {
+            left: 16px;
+        }
+
+        .animated-button:hover .text {
+            transform: translateX(12px);
+        }
+
+        .animated-button:hover svg {
+            fill: #212121;
+        }
+
+    .animated-button:active {
+        scale: 0.95;
+        box-shadow: 0 0 0 4px greenyellow;
+    }
+
+    .animated-button:hover .circle {
+        width: 220px;
+        height: 220px;
+        opacity: 1;
+    }*/
+/* ANIMATE BUTTON ON HOME PAGE ENDS */
+
+
+/* CONTACT US CARD */
+.card {
+    width: 280px;
+    height: 280px;
+    background: white;
+    border-radius: 32px;
+    padding: 3px;
+    position: relative;
+    box-shadow: #604b4a30 0px 70px 30px -50px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+.card .profile-pic {
+    position: absolute;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    top: 3px;
+    left: 3px;
+    border-radius: 29px;
+    z-index: 1;
+    border: 0px solid #F0CF6C;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out 0.2s, z-index 0.5s ease-in-out 0.2s;
+}
+
+
+    .card .profile-pic img {
+        -o-object-fit: cover;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        -o-object-position: 0px 0px;
+        object-position: 0px 0px;
+        transition: all 0.5s ease-in-out 0s;
+    }
+
+    .card .profile-pic svg {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: 0px 0px;
+        object-position: 0px 0px;
+        transform-origin: 45% 20%;
+        transition: all 0.5s ease-in-out 0s;
+    }
+
+    .card .bottom {
+        position: absolute;
+        bottom: 3px;
+        left: 3px;
+        right: 3px;
+        background: #F0CF6C;
+        color: white;
+        top: 80%;
+        border-radius: 29px;
+        z-index: 2;
+        box-shadow: rgba(96, 75, 74, 0.1882352941) 0px 5px 5px 0px inset;
+        overflow: hidden;
+        transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    }
+
+    .card .bottom .content {
+        position: absolute;
+        bottom: 0;
+        left: 1.5rem;
+        right: 1.5rem;
+        height: 160px;
+    }
+
+        .card .bottom .content .name {
+            display: block;
+            font-size: 1.2rem;
+            color: white;
+            font-weight: bold;
+        }
+
+        .card .bottom .content .about-me {
+            display: block;
+            font-size: 0.9rem;
+            color: white;
+            margin-top: 1rem;
+        }
+
+    .card .bottom .bottom-bottom {
+        position: absolute;
+        bottom: 1rem;
+        left: 1.5rem;
+        right: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+        .card .bottom .bottom-bottom .social-links-container {
+            display: flex;
+            gap: 1rem;
+        }
+
+            .card .bottom .bottom-bottom .social-links-container svg {
+                height: 20px;
+                fill: white;
+                filter: drop-shadow(0 5px 5px rgba(165, 132, 130, 0.1333333333));
+            }
+
+                .card .bottom .bottom-bottom .social-links-container svg:hover {
+                    fill: #f55d56;
+                    transform: scale(1.2);
+                }
+
+        .card .bottom .bottom-bottom .button {
+            background: white;
+            color: #F0CF6C;
+            border: none;
+            border-radius: 20px;
+            font-size: 0.6rem;
+            padding: 0.4rem 0.6rem;
+            box-shadow: rgba(165, 132, 130, 0.1333333333) 0px 5px 5px 0px;
+        }
+
+            .card .bottom .bottom-bottom .button:hover {
+                background: #f55d56;
+                color: white;
+            }
+
+.card:hover {
+    border-top-left-radius: 55px;
+}
+
+    .card:hover .bottom {
+        top: 20%;
+        border-radius: 80px 29px 29px 29px;
+        transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+    }
+
+    .card:hover .profile-pic {
+        width: 100px;
+        height: 100px;
+        aspect-ratio: 1;
+        top: 10px;
+        left: 10px;
+        border-radius: 50%;
+        z-index: 3;
+        border: 7px solid #F0CF6C;
+        box-shadow: rgba(96, 75, 74, 0.1882352941) 0px 5px 5px 0px;
+        transition: all 0.5s ease-in-out, z-index 0.5s ease-in-out 0.1s;
+    }
+
+        .card:hover .profile-pic:hover {
+            transform: scale(1.3);
+            border-radius: 0px;
+        }
+
+        .card:hover .profile-pic img {
+            transform: scale(2.5);
+            -o-object-position: 0px 25px;
+            object-position: 0px 25px;
+            transition: all 0.5s ease-in-out 0.5s;
+        }
+
+        .card:hover .profile-pic svg {
+            transform: scale(2.5);
+            transition: all 0.5s ease-in-out 0.5s;
+        }
+
+.card .profile-pic img {
+    object-fit: none;
+    object-position: center;
+}
+
+.cards-container {
+    margin-top: 200px; /* Push down the blocks */
+    display: flex; /* Arrange cards horizontally */
+    flex-wrap: wrap; /* Allow cards to wrap to the next row if there's not enough space */
+    gap: 20px; /* Add space between cards */
+    justify-content: space-evenly; /* Evenly distribute cards */
+    padding: 10px;
+}
+
+.card {
+    width: 280px; /* Fixed width for each card */
+    height: 280px; /* Fixed height for each card */
+    background: white;
+    border-radius: 32px;
+    box-shadow: #604b4a30 0px 70px 30px -50px;
+    transition: all 0.5s ease-in-out;
+}
+/*end*/
+
+
+/* about us heading*/
+.about-heading {
+    margin-top: 80px; /* Adjust this value as needed */
+    text-align: center; /* Center align the heading */
+}
+
+.about-content {
+    margin-top: 40px; /* Add space below the heading */
+    width: 80%; /* Adjust the width as needed */
+    margin-left: auto; /* Center the content horizontally */
+    margin-right: auto; /* Center the content horizontally */
+    text-align: justify; /* Optional: Justify text for a neat look */
+    line-height: 1.8; /* Improve readability with increased line spacing */
+}
+
+/*navigation bar colour*/
+.navbar-light {
+    background-color: #333333; /* Dark gray background */
+    color: #ffffff; /* White text */
+}
+
+    .navbar-light .nav-link {
+        color: #ffffff !important; /* Ensure links are white */
+    }
+
+        .navbar-light .nav-link:hover {
+            color: #ffcc00 !important; /* Yellow on hover */
+        }
+
+    .navbar-light .navbar-brand {
+        color: #ffcc00 !important; /* Yellow for the logo/brand */
+    }
+
+    .navbar-light .navbar-toggler {
+        background-color: #ffffff; /* White background for the hamburger menu */
+    }
+/*ends*/
+
+
+/* PROJECTS AND PROGRAMS DESIGN */
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* Events Container */
+.events-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Event Card */
+.event-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .event-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+/* Event Image */
+.event-image img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Event Details */
+.event-details {
+    padding: 15px;
+}
+
+.event-title {
+    font-size: 1.5rem;
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+.event-date,
+.event-location {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.event-description {
+    font-size: 0.9rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.event-button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    color: white;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .event-button:hover {
+        background-color: #e0554c;
+    }
+
+/* ENDS HERE*/
+
+
+/* popia modal*/
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+    background-color: #ff6f61; /* Coral */
+    color: white;
+}
+
+.modal-footer .btn-primary {
+    background-color: #ff6f61;
+    border: none;
+}
+
+/* popia act scroll bar notif*/
+/*.button,
+.input,
+.select,
+.textarea {
+    font: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+.modal-container {
+    max-height: 400px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 600px) {
+    .modal-container {
+        width: 90%;
+    }
+}
+
+.modal-container-header {
+    padding: 16px 32px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-container-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 1.125;
+}
+
+    .modal-container-title svg {
+        width: 32px;
+        height: 32px;
+        color: #750550;
+    }
+
+.modal-container-body {
+    padding: 24px 32px 51px;
+    overflow-y: auto;
+}
+
+.rtf h1,
+.rtf h2,
+.rtf h3,
+.rtf h4,
+.rtf h5,
+.rtf h6 {
+    font-weight: 700;
+}
+
+.rtf h1 {
+    font-size: 1.5rem;
+    line-height: 1.125;
+}
+
+.rtf h2 {
+    font-size: 1.25rem;
+    line-height: 1.25;
+}
+
+.rtf h3 {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.rtf > * + * {
+    margin-top: 1em;
+}
+
+.rtf > * + :is(h1, h2, h3) {
+    margin-top: 2em;
+}
+
+.rtf > :is(h1, h2, h3) + * {
+    margin-top: 0.75em;
+}
+
+.rtf ul,
+.rtf ol {
+    margin-left: 20px;
+    list-style-position: inside;
+}
+
+.rtf ol {
+    list-style: numeric;
+}
+
+.rtf ul {
+    list-style: disc;
+}
+
+.modal-container-footer {
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-top: 1px solid #ddd;
+    gap: 12px;
+    position: relative;
+}
+
+    .modal-container-footer:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: -51px;
+        left: 24px;
+        right: 24px;
+        height: 50px;
+        flex-shrink: 0;
+        background-image: linear-gradient(to top, rgba(255, 255, 255, 0.75), transparent);
+        pointer-events: none;
+    }
+
+.button {
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 0;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.15s ease;
+}
+
+    .button.is-ghost:hover, .button.is-ghost:focus {
+        background-color: #dfdad7;
+    }
+
+    .button.is-primary {
+        background-color: #750550;
+        color: #fff;
+    }
+
+        .button.is-primary:hover, .button.is-primary:focus {
+            background-color: #4a0433;
+        }
+
+.icon-button {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.15s ease;
+}
+
+    .icon-button svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .icon-button:hover, .icon-button:focus {
+        background-color: #dfdad7;
+    }*/
+
+
+/* events page */
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+.events-header {
+    background: linear-gradient(135deg, #de3831, #ffb81c);
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+    border-radius: 0 0 20px 20px;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.events-header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.events-header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* Events Grid Section */
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    max-width: 1200px;
+}
+
+/* Event Card */
+.event-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .event-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+    }
+
+/* Event Image */
+.event-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Event Info */
+.event-info {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+    .event-info h2 {
+        font-size: 1.8rem;
+        color: #de3831;
+        margin-bottom: 0.5rem;
+    }
+
+    .event-info p {
+        margin: 0.5rem 0;
+    }
+
+.event-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    background-color: #ffb81c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+    .event-btn:hover {
+        background-color: #de3831;
+    }
+
+/* Footer */
+.events-footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+
+    .events-footer p {
+        font-size: 0.9rem;
+    }
+
+
+
+/*  contact page design - Sadhil's design 
+ Contact section background color */
+/*#contact {
+    background-color: rgba(0, 0, 0, 0.1);  Replace with desired color 
+    color: #333;  Adjust text color for contrast 
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+}*/
+
+  /*Submit button styling */   
+    /*#contact button {
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        max-width: 500px;
+    }*/
+
+/*#contact button:hover {
+    background-color: #031278;*/ /*Darker shade for hover effect*/
+/*}*/
+
+/*body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding:  20px;
+}
+*/
+ /*Textbox styling 
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    background-color: #ffffff;  White background for textboxes 
+    color: #333;  Dark text color 
+    border: 1px solid #ccc;  Subtle border 
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}*/
+
+
+/* Flying Wings Page Styles */
+body.flying-wings-page {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+header.hero-section.flying-wings-hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, #1e1e1e, #282828);
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+    header.hero-section.flying-wings-hero h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+
+    header.hero-section.flying-wings-hero p {
+        font-size: 1.2rem;
+        color: #cccccc;
+    }
+
+/* Wings Section */
+.flying-wings-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.flying-wing-card {
+    background: #1e1e1e;
+    border: 1px solid #444444;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+    .flying-wing-card:hover {
+        transform: scale(1.05);
+        background-color: #333333;
+    }
+
+    .flying-wing-card h2 {
+        color: #FFB81C;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .flying-wing-card p {
+        font-size: 1rem;
+        color: #cccccc;
+    }
+
+.flying-wing-icon img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid #444444;
+}
+
+ Footer 
+footer.flying-wings-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    margin-top: 20px;
+}
+ Flying Wings Page Styles END 
+
+/* Flying Wings Page Specific Styles */
+/*body.flying-wings-page {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    line-height: 1.6;
+}*/
+
+/* Navbar Fix */
+/*header.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: #000000;
+    padding: 10px 0;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}*/
+
+/* Add padding to the content to avoid overlapping with navbar */
+/*.flying-wings-content {
+    padding-top: 120px;*/ /* Adjust padding to create space below the navbar */
+    /*padding-left: 20px;
+    padding-right: 20px;
+}
+
+    .flying-wings-content h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: #FFB81C;*/ /* Highlight the heading */
+    /*}
+
+    .flying-wings-content p, .flying-wings-content ul {
+        margin-top: 20px;
+        text-align: left;
+    }*/
+/* Target the specific body section */
+/*.flying-wings-body-section {
+    background-color: #f0f0f0;*/ /* Replace with your desired color */
+    /*color: #333;*/ /* Optional: Adjust text color for contrast */
+    /*padding: 20px;*/ /* Optional: Add some padding for spacing */
+    /*min-height: calc(100vh - 300px);*/ /* Ensure it spans the viewport minus the header/footer height */
+/*}
+
+
+    .flying-wings-content ul {
+        padding-left: 40px;
+        list-style-type: disc;
+    }*/
+
+
+
+
+/* Centered Section Styles */
+/*.centered-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: calc(100vh - 120px);*/ /* Ensures section occupies full viewport height minus navbar height */
+    /*padding: 20px;*/ /* Add some padding for mobile devices */
+    /*background-color: red;*/ /* Ensure background color matches rest of the page */
+    /*color: ghostwhite;*/ /* Text color */
+/*}
+
+    .centered-section p {
+        font-size: 1.2rem;*/ /* Adjust font size for readability */
+        /*line-height: 1.8;*/ /* Increase line spacing for better readability */
+        /*max-width: 800px;*/ /* Limit paragraph width for optimal reading experience */
+    /*}*/
+
+/* Section Styling */
+/*.centered-section {
+    padding: 50px 20px;*/ /* Add spacing around the section */
+    /*background-color: #000000;*/ /* Ensure a black background */
+    /*color: #ffffff;*/ /* White text color */
+    /*text-align: center;*/ /* Center the text */
+/*}*/
+
+/* Paragraph Styling */
+/*.centered-section p {
+    font-size: 1.2rem;*/ /* Set font size for readability */
+    /*line-height: 1.8;*/ /* Add line spacing for better readability */
+    /*margin: 20px auto;*/ /* Add vertical spacing and center-align */
+    /*max-width: 800px;*/ /* Restrict the width for better readability */
+/*}*/
+
+
+/* PAYPAL CENTER STYLING */
+/* Center PayPal Section */
+.paypal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 60px); /* Full viewport height minus navbar height */
+    padding-top: 60px; /* Add space to prevent overlap */
+    box-sizing: border-box;
+}
+
+}
+    .paypal-container .paypal-header {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .paypal-container iframe,
+    .paypal-container button {
+        margin: 15px 0; /* Add spacing between elements */
+        max-width: 90%; /* Ensure it fits within smaller screens */
+    }
+
+/* Prevent overlapping with navbar */
+body {
+    margin-top: 70px; /* Ensure all content starts below the navbar */
+}
+
+
+/* Flying Wings section styling */
+.FlyingWingsSection {
+    background-color: black;
+    color: white;
+    padding: 50px; /* Padding inside the bordered content area */
+    border: 50px solid #FFD700; /* Yellow border around section */
+    border-radius: 10px; /* Rounded corners for the border */
+    width: 100vw; /* Full width of the viewport */
+    max-width: 100%; /* Ensure it stretches fully */
+    text-align: center;
+    margin: 100px 0; /* Top and bottom margins for spacing */
+    box-sizing: border-box; /* Ensures padding and border fit within width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    /* Title styling */
+    .FlyingWingsSection h1 {
+        color: white;
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 30px; /* Space below the title */
+    }
+
+    /* Styling for the unordered list */
+    .FlyingWingsSection ul {
+        list-style-type: none; /* Remove bullet points for a cleaner look */
+        padding-left: 0;
+        text-align: center; /* Center the text in the list */
+        line-height: 2; /* Increase line spacing for better readability */
+        margin-bottom: 40px; /* Bottom margin to separate from other elements */
+    }
+
+        /* Styling for each list item */
+        .FlyingWingsSection ul li {
+            font-size: 20px;
+            color: #fff;
+            margin-bottom: 20px; /* Increase spacing between list items */
+        }
+
+    /* Button styling */
+    .FlyingWingsSection button {
+        background-color: #333;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+        padding: 15px 30px; /* Larger button size */
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+        margin-top: 40px; /* Extra space before the button */
+    }
+
+        /* Button hover effect */
+        .FlyingWingsSection button:hover {
+            background-color: #C70039;
+        }
+
+/* Image styling */
+.FlyingWingImage {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+/* Youth Wings Section */
+.YouthWingsSection {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    border: 50px solid #FFD700;
+    border-radius: 10px;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    margin: 100px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .YouthWingsSection h1 {
+        color: white;
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 20px; /* Adjust margin for proper spacing */
+    }
+
+    .YouthWingsSection p {
+        color: white;
+        font-size: 1.2em;
+        margin-bottom: 30px; /* Adjust spacing between text and image */
+    }
+
+.YouthWingImage {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px; /* Space above image */
+    margin-bottom: 30px; /* Space below image */
+}
+
+/* Helping Hands Section */
+.HelpingHandsSection {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    border: 50px solid #FFD700;
+    border-radius: 10px;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    margin: 100px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .HelpingHandsSection h1 {
+        color: white;
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .HelpingHandsSection ul {
+        list-style-type: none;
+        padding-left: 0;
+        text-align: center;
+        line-height: 2;
+        margin-bottom: 40px;
+    }
+
+        .HelpingHandsSection ul li {
+            font-size: 20px;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+    .HelpingHandsSection button {
+        background-color: #333;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+        margin-top: 40px;
+    }
+
+        .HelpingHandsSection button:hover {
+            background-color: #C70039;
+        }
+
+.HelpingHandImage {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Legal Wings Section */
+.LegalWingsSection {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    border: 50px solid #FFD700;
+    border-radius: 10px;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    margin: 100px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .LegalWingsSection h1 {
+        color: white;
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .LegalWingsSection ul {
+        list-style-type: none;
+        padding-left: 0;
+        text-align: center;
+        line-height: 2;
+        margin-bottom: 40px;
+    }
+
+        .LegalWingsSection ul li {
+            font-size: 20px;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+    .LegalWingsSection button {
+        background-color: #333;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+        margin-top: 40px;
+    }
+
+        .LegalWingsSection button:hover {
+            background-color: #C70039;
+        }
+
+.LegalWingImage {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Medi Wings Section */
+.MediWingsSection {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    border: 50px solid #FFD700;
+    border-radius: 10px;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    margin: 100px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .MediWingsSection h1 {
+        color: white;
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .MediWingsSection ul {
+        list-style-type: none;
+        padding-left: 0;
+        text-align: center;
+        line-height: 2;
+        margin-bottom: 40px;
+    }
+
+        .MediWingsSection ul li {
+            font-size: 20px;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+    .MediWingsSection button {
+        background-color: #333;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+        margin-top: 40px;
+    }
+
+        .MediWingsSection button:hover {
+            background-color: #C70039;
+        }
